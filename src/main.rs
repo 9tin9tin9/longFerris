@@ -1,10 +1,10 @@
 const FERRIS_HEAD: &str =     "    x^^^^^^x";
 const FERRIS_BODY: &str =     "  <          >";
-const FERRIS_BOTTOM: &str = r#"  <          > /`
+const FERRIS_BOTTOM: &str = r#"  <          > /
 _<`   0  0    >_
 \\`-\,== ---'`//
  \   '==      /"#;
-const FERRIS_HAND: &str = "{ }";
+const FERRIS_HAND: &str = "{_}";
 const FERRIS_HAND_POS : usize = 15;
 
 fn main() {
